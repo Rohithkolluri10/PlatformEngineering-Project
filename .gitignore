@@ -1,0 +1,10 @@
+# Ignore the local Terraform directory (contains binaries/providers)
+.terraform/
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Ignore variables files that might contain secrets
+*.tfvars
+*.tfvars.json 
